@@ -1,0 +1,67 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 2.6;
+    background: #fce6e6;
+    color:#2d2419;
+    padding: 20px;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 35px;
+}
+.card-img img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 20px;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+.prep-info{
+    display: column;
+    background-color: #fffaf0;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.prep-info ul li{
+    margin: 20px;
+}
+h4{
+    color: #8b4513;
+}
+.ingredient{
+    color: #2d2419;
+}
+.head{
+    margin-top: 55px;
+    color: #443522;
+}
+/*Nutrition Table*/
+table{
+    width: 100%;  
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.td-btn{
+    color: #8b4513;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+}
