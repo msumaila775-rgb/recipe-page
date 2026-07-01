@@ -33,7 +33,7 @@ h1{
     background-color: #fffaf0;
     padding: 15px;
     border-radius: 8px;
-    margin: 5px;
+    margin-top: 50px;
 }
 .prep-info ul li{
     margin: 20px;
@@ -41,14 +41,12 @@ h1{
 h4{
     color: #8b4513;
 }
-.ingredient{
-    color: #2d2419;
-}
+
 .head{
     margin-top: 55px;
-    color: #443522;
+    color:  #8b4513;
 }
-/*Nutrition Table*/
+
 table{
     width: 100%;  
 }
@@ -62,6 +60,7 @@ td{
 footer{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
     text-align: right;
     justify-content: flex-end;
 }
